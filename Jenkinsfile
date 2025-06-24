@@ -46,7 +46,7 @@ pipeline {
                  //   sh '''
                    //     curl -v -u $USERNAME:$PASSWORD --upload-file $FILE \
                      //   $NEXUS_URL/repository/$REPO/$(echo $GROUP_ID | tr '.' '/')/$ARTIFACT_ID/$VERSION/$ARTIFACT_ID-$VERSION.$PACKAGING
-                    '''
+                   // '''
                     echo "uploaded to nexus"
                 }
             }
